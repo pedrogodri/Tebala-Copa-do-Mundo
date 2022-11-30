@@ -14,6 +14,6 @@ fetch('jogos-fase1.json')
             <td>${jogo.hora}</td>
             <td>${jogo.grupo}</td>
             <td>${jogo.partida}</td>
-            <td>${jogo.estadio}</td>
+            <td id='estadio'>${jogo.estadio}</td>
         `
     }));
